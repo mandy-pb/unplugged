@@ -87,6 +87,214 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------------------ BASE HEADER - FOOTER STYLES -----------------*/
+
+header,
+footer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+}
+
+/*------------ HEADER STYLES -----------------*/
+
+header {
+  
+}
+
+header .content-wrapper {
+  justify-content:center;
+}
+
+header figure {
+  
+}
+
+.header-divider {
+  
+}
+
+header nav {
+  justify-content:space-around;
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+ 
+}
+
+/*------------ MOBILE STYLES - HOMEPAGE -----------------*/
+
+.hero-area {
+
+}
+
+.hero-area h1 {
+
+}
+
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+aside .signup-button {
+
+}
+
+/*----------- FEATURED SECTION ---------*/
+
+.features h2 {
+
+}
+
+/*-----------REVIEWS -----------*/
+
+.reviews h2 {
+
+}
+
+.review-subheading h3 {
+
+}
+
+.review-subheading p {
+
+}
+
+/*------------ FOOTER -------------------*/
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.contact h4 {
+
+}
+
+.contact address {
+
+}
+
+.social h4 {
+
+}
+
+.social-icons {
+
+}
+
+/*---------- COPYRIGHT --------*/
+
+.copyright {
+
+}
+
+/*------------ MOBILE STYLES FOR ABOUT PAGE -----------*/
+
+.mission {
+
+}
+
+.mission-content h1 {
+
+}
+
+.mission-content p {
+
+}
+
+.map .content-wrapper {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section h2 {
+
+}
+
+.general-info h3 {
+
+}
+
+.general-info address {
+
+}
+
+.facilitator h3 {
+
+}
+
+.facilitator address {
+
+}
+
+/*----------- FAQ STYLES ---------------*/
+
+.questions h1 {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.get-to h3 {
+
+}
+
+.get-to p {
+
+}
+
+.right-team h3 {
+
+}
+
+.right-team p {
+
+}
+
+.team-size h3 {
+
+}
+
+.team-size p {
+
+}
+
+.no-wifi h3 {
+
+}
+
+.no-wifi p {
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
