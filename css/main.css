@@ -99,12 +99,13 @@ footer {
 
 /*------------ HEADER STYLES -----------------*/
 
-header {
-  
+header { 
+
 }
 
 header .content-wrapper {
-  justify-content:center;
+  justify-content: center;
+  flex-flow:row wrap;
 }
 
 header figure {
@@ -117,67 +118,19 @@ header figure {
 
 header nav {
   justify-content:space-around;
+  flex-flow:row wrap;
 }
 
 header nav ul {
-
+  display:flex;
+  justify-content:space-around;
 }
 
 header nav ul li {
- 
+  
 }
 
-/*------------ MOBILE STYLES - HOMEPAGE -----------------*/
-
-.hero-area {
-
-}
-
-.hero-area h1 {
-
-}
-
-aside {
-
-}
-
-aside .content-wrapper {
-
-}
-
-aside .form-description {
-
-}
-
-aside .form {
-
-}
-
-aside .signup-button {
-
-}
-
-/*----------- FEATURED SECTION ---------*/
-
-.features h2 {
-
-}
-
-/*-----------REVIEWS -----------*/
-
-.reviews h2 {
-
-}
-
-.review-subheading h3 {
-
-}
-
-.review-subheading p {
-
-}
-
-/*------------ FOOTER -------------------*/
+/*- FOOTER -*/
 
 footer {
 
@@ -185,6 +138,14 @@ footer {
 
 footer .content-wrapper {
 
+}
+
+footer .social-icons {
+  display:flex;
+}
+
+footer .social p {
+  justify-content: center;
 }
 
 .contact h4 {
@@ -203,16 +164,90 @@ footer .content-wrapper {
 
 }
 
-/*---------- COPYRIGHT --------*/
+/*- COPYRIGHT -*/
 
 .copyright {
 
 }
 
-/*------------ MOBILE STYLES FOR ABOUT PAGE -----------*/
+/*------------ MOBILE STYLES - HOMEPAGE -----------------*/
+
+.hero-area {
+  display:flex;
+}
+
+.hero-area .content-wrapper {
+  
+}
+
+.content-wrapper h1 {
+  
+}
+
+aside {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+ 
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+aside .signup-button {
+
+}
+
+/*----------- FEATURED SECTION ---------*/
+
+.features {
+  display:flex;
+}
+
+.features .features-items {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.features h2 {
+
+}
+
+/*-----------REVIEWS -----------*/
+
+.reviews {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.reviews h2 {
+
+}
+
+.review-subheading {
+  
+}
+
+.review-subheading h3 {
+
+}
+
+.review-subheading p {
+
+}
+
+/*------------ MOBILE STYLES - ABOUT PAGE -----------*/
 
 .mission {
-
+  display:flex;
+  flex-flow: row wrap;
 }
 
 .mission-content h1 {
@@ -228,7 +263,8 @@ footer .content-wrapper {
 }
 
 .contact-section {
-
+  display:flex;
+  flex-flow:row wrap;
 }
 
 .contact-section h2 {
@@ -251,14 +287,20 @@ footer .content-wrapper {
 
 }
 
-/*----------- FAQ STYLES ---------------*/
+/*----------- MOBILE STYLE - FAQ PAGE ---------------*/
+
+.faq {
+  display:flex;
+  flex-flow:row wrap;
+}
 
 .questions h1 {
 
 }
 
 .faq .content-wrapper {
-
+  display:flex;
+  flex-flow:row wrap;
 }
 
 .get-to h3 {
