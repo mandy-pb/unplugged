@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+    width:90%;
+    margin:50px 0;
+   }
 /*------------------ BASE HEADER - FOOTER STYLES -----------------*/
 
 header,
@@ -97,55 +101,78 @@ footer {
   flex-flow:row wrap;
 }
 
-/*------------ HEADER STYLES -----------------*/
+/*HEADER STYLES*/
 
 header { 
-
+  padding:15px 0;
 }
 
 header .content-wrapper {
+  display:flex;
   justify-content: center;
+  align-items: center;
   flex-flow:row wrap;
+  margin:0;
 }
 
-header figure {
+figure {
   
 }
 
 .header-divider {
-  
+  width:100%;
+  height: 1px;
+  margin:10px 0 20px 0;
 }
 
 header nav {
+  display:flex;
   justify-content:space-around;
+  align-items: center;
   flex-flow:row wrap;
+  width:60%;
 }
 
 header nav ul {
   display:flex;
   justify-content:space-around;
+  width:100%;
 }
 
 header nav ul li {
   
 }
 
-/*- FOOTER -*/
+/*FOOTER*/
 
 footer {
-
+  flex-direction:column;
 }
 
 footer .content-wrapper {
-
+  margin:50px 0;
+  width:55%;
 }
 
 footer .social-icons {
   display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
+  display:flex;
   justify-content: center;
+  align-items: center;
+}
+
+
+footer p {
+  margin:0;
+}
+
+footer .contact {
+  margin-bottom:50px;
 }
 
 .contact h4 {
@@ -160,20 +187,20 @@ footer .social p {
 
 }
 
-.social-icons {
-
-}
-
-/*- COPYRIGHT -*/
+/*COPYRIGHT*/
 
 .copyright {
-
+  margin:20px 0;
 }
 
 /*------------ MOBILE STYLES - HOMEPAGE -----------------*/
 
+/*HERO AREA*/
+
 .hero-area {
   display:flex;
+  justify-content: center;
+  flex-flow:row wrap;
 }
 
 .hero-area .content-wrapper {
@@ -184,8 +211,12 @@ footer .social p {
   
 }
 
+/*ASIDE AREA*/
+
 aside {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -194,59 +225,75 @@ aside .content-wrapper {
 }
 
 aside .form-description {
-
+  
 }
 
 aside .form {
-
+  padding:0 20px;
 }
 
 aside .signup-button {
-
+  
 }
 
-/*----------- FEATURED SECTION ---------*/
+/*FEATURED SECTION*/
 
 .features {
   display:flex;
+  justify-content: center;
+  flex-flow:row wrap;
 }
 
 .features .features-items {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
 .features h2 {
-
+  margin-bottom:60px;
 }
 
-/*-----------REVIEWS -----------*/
+.features article {
+  width:63%;
+  margin:30px 0;
+}
+
+.features p {
+  margin:0;
+}
+/*REVIEWS*/
 
 .reviews {
   display:flex;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
 .reviews h2 {
-
+  margin-bottom: 40px;
 }
 
 .review-subheading {
   
 }
 
-.review-subheading h3 {
-
+.reviews h3 {
+  width:55%;
+  margin:20px 0;
 }
 
-.review-subheading p {
-
+.reviews p {
+  
 }
 
 /*------------ MOBILE STYLES - ABOUT PAGE -----------*/
 
 .mission {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -264,6 +311,8 @@ aside .signup-button {
 
 .contact-section {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow:row wrap;
 }
 
@@ -271,70 +320,34 @@ aside .signup-button {
 
 }
 
-.general-info h3 {
-
-}
-
-.general-info address {
-
-}
-
-.facilitator h3 {
-
-}
-
-.facilitator address {
-
+.contact-content p {
+  margin:0;
 }
 
 /*----------- MOBILE STYLE - FAQ PAGE ---------------*/
 
 .faq {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow:row wrap;
-}
-
-.questions h1 {
-
 }
 
 .faq .content-wrapper {
   display:flex;
+  justify-content: center;
+  align-items: center;
   flex-flow:row wrap;
+  margin:50px 0 0 0;
 }
 
-.get-to h3 {
-
+.faq h2 {
+  margin-bottom:40px;
 }
 
-.get-to p {
-
+.faq-content {
+  margin-bottom:50px;
 }
-
-.right-team h3 {
-
-}
-
-.right-team p {
-
-}
-
-.team-size h3 {
-
-}
-
-.team-size p {
-
-}
-
-.no-wifi h3 {
-
-}
-
-.no-wifi p {
-
-}
-
 
 
 /* ==========================================================================
