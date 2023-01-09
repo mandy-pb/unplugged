@@ -115,9 +115,6 @@ header .content-wrapper {
   margin:0;
 }
 
-figure {
-  
-}
 
 .header-divider {
   width:100%;
@@ -137,10 +134,6 @@ header nav ul {
   display:flex;
   justify-content:space-around;
   width:100%;
-}
-
-header nav ul li {
-  
 }
 
 /*FOOTER*/
@@ -175,18 +168,6 @@ footer .contact {
   margin-bottom:50px;
 }
 
-.contact h4 {
-
-}
-
-.contact address {
-
-}
-
-.social h4 {
-
-}
-
 /*COPYRIGHT*/
 
 .copyright {
@@ -203,14 +184,6 @@ footer .contact {
   flex-flow:row wrap;
 }
 
-.hero-area .content-wrapper {
-  
-}
-
-.content-wrapper h1 {
-  
-}
-
 /*ASIDE AREA*/
 
 aside {
@@ -219,21 +192,8 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-
-aside .content-wrapper {
- 
-}
-
-aside .form-description {
-  
-}
-
 aside .form {
   padding:0 20px;
-}
-
-aside .signup-button {
-  
 }
 
 /*FEATURED SECTION*/
@@ -275,17 +235,9 @@ aside .signup-button {
   margin-bottom: 40px;
 }
 
-.review-subheading {
-  
-}
-
 .reviews h3 {
   width:55%;
   margin:20px 0;
-}
-
-.reviews p {
-  
 }
 
 /*------------ MOBILE STYLES - ABOUT PAGE -----------*/
@@ -297,27 +249,11 @@ aside .signup-button {
   flex-flow: row wrap;
 }
 
-.mission-content h1 {
-
-}
-
-.mission-content p {
-
-}
-
-.map .content-wrapper {
-
-}
-
 .contact-section {
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
-}
-
-.contact-section h2 {
-
 }
 
 .contact-content p {
@@ -349,6 +285,143 @@ aside .signup-button {
   margin-bottom:50px;
 }
 
+/************TABLET BREAKPOINT*********/
+
+@media only screen and (min-width: 768px) {
+ /*GENERAL STYLES*/
+
+  .content-wrapper{
+    max-width:640px;
+    margin:100px 0;
+  }
+
+  header {
+    justify-content:unset;
+  }
+
+  header .content-wrapper {
+    width:100%;
+    justify-content:flex-end;
+  }
+
+  header nav {
+    width:30%;
+  }
+
+  header nav ul {
+    justify-content:space-evenly;
+  }
+
+  .header-divider {
+    display:none;
+  }
+  
+  /*HERO AREA*/
+
+
+
+  /*ASIDE AREA*/
+
+  aside .content-wrapper {
+    margin:50px 0;
+    display:flex;
+    justify-content:space-between;
+    flex-flow:row;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width:40%;
+    margin:0;
+  }
+
+  /*FEATURES AREA*/
+
+  .features  article {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-flow:row wrap;
+    flex-basis:300px;
+  }
+
+  .features .features-item-description {
+    width:30%;
+  }
+
+  /*REVIEWS AREA*/
+
+  .reviews article {
+    display:flex;
+    justify-content:flex-end;
+  }
+
+  .reviews article div {
+    width:50%;
+  }
+
+  /*FOOTER AREA*/
+
+  footer .content-wrapper {
+    width:82%;
+    margin:100px 0;
+  }
+
+  .footer-content {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+
+  footer .contact {
+    margin-bottom:0;
+  }
+
+  footer .copyright {
+    width:40%;
+  }
+
+  /*FAQ SECTION*/
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis:40%;
+  }
+
+  .faq h2 {
+    width:100%;
+  }
+
+  /*ABOUT SECTION*/
+    .mission-content {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .mission-content p {
+      width:48px;
+    }
+
+    .contact-content {
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+    }
+
+}
+
+
+/***********DESKTOP BREAKPOINT********/
+
+@media only screen and (min-width:1200px) {
+  .content-wrapper {
+    width:960px;
+  }
+}
 
 /* ==========================================================================
    Helper classes
