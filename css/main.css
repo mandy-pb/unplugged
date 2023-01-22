@@ -118,7 +118,7 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 1.875em;
 }
  
@@ -131,16 +131,16 @@ h4 {
 }
  
 p {
-	font-size: 0.875em;
+	font-size: .875em;
   line-height: 1.125em;
 }
  
 img {
- 
+ width:100%;
 }
  
 figure {
- 
+ margin:0;
 }
  
 address {
@@ -150,12 +150,6 @@ address {
 .content-wrapper {
  width:90%;
  margin:50px 0;
-}
-
-aside,
-.mission,
-.faq{
-  background:#527158;
 }
 
 /*------------------ BASE HEADER - FOOTER STYLES -----------------*/
@@ -181,6 +175,13 @@ header .content-wrapper {
   margin:0;
 }
 
+header figure {
+  width:60%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .header-divider {
   width:100%;
@@ -232,7 +233,6 @@ footer .social-icons p {
   align-items: center;
 }
 
-
 footer p {
   margin:0;
 }
@@ -241,7 +241,7 @@ footer .contact {
   margin-bottom:50px;
 }
 
-.copyright {
+footer .copyright {
   margin:20px 0;
 }
 
@@ -253,9 +253,13 @@ footer .contact {
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
+  background: url("../img/unplugged-retreat.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
-.hero-areah1 {
+.hero-area h1 {
   font-size:2.25em;
   font-family:'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -304,6 +308,9 @@ input[type=button] {
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
+  background:url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .features .features-items {
@@ -524,6 +531,7 @@ input[type=button] {
 
   header nav {
     width:20%;
+   
   }
 
   header nav ul {
@@ -536,7 +544,11 @@ input[type=button] {
   
   /*HERO AREA*/
 
-.hero-area h1 {
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
   font-size: 3em;
   line-height: 1;
   margin: 0;
@@ -702,7 +714,7 @@ input[type=button] {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width:60%;
+    width:80%;
   }
 
   /*ASIDE*/
