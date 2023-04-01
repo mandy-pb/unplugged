@@ -92,7 +92,7 @@ textarea {
 
 .content-wrapper {
   width:90%;
-   margin:50px 0;
+  margin:50px 0;
 }
  
 html {
@@ -236,8 +236,8 @@ footer .social-icons p {
   align-items: center;
   border-radius:50%;
   background:#527158;
-  width:40px;
-  height:40px;
+  width:3.125em;
+  height:3.125em;
 }
 
 footer .social-icons p i {
@@ -571,7 +571,7 @@ input[type=button] {
   }
 
   header nav ul li {
-    padding-right: 50%;
+    padding-right: 20%;
   }
 
   .header-divider {
